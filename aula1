@@ -1,0 +1,63 @@
+AULA 1
+
+
+node ____
+
+yarn tsc --init
+
+powershell.exe -ExecutionPolicy Bypass "C:\Users\drop\Documents\nlw"
+
+
+sempre quando tiver 3 pontos no import -> as tipagens não estão dentro da biblioteca
+
+tipagens -> yarn add @type/dependencia
+
+
+metodos:
+
+get - buscar uma informação
+post - inserir (criar) uma informação 
+put  - alterar/manipular uma alteração 
+delete - remover um dado  
+patch - alterar uma informação especifica 
+
+
+ctrl j abre e fecha a aba do terminal // deusa 
+
+
+
+AULA 2 
+
+PARAMETROS
+Routes PARAMS
+app.get('/rota/{id})
+
+query params 
+procura por PARAMETROS
+
+
+body params 
+inseridos no corpo (post put patch)
+
+
+BANCO DE DADOS ORM (estudar mais)
+
+repositorios é a entidade entre a gente e o DB
+
+server -> Controller -> SERVICE -> repositories -> db
+
+service é onde fazemos todas regras/validações e tals, depois chamamos o repositories
+
+Controller -> pega nossas informações do server e passa pro service
+
+RDBMS -> Estudar 5 principios arquitetura limpa
+
+Aula 3 
+
+tratamento do erro
+
+criação da tag ( migration, entity, service, controller)
+
+4
+
+sempre q for boolean usar o await (?)
